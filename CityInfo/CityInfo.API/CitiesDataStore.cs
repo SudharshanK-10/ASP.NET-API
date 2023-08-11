@@ -7,7 +7,7 @@ namespace CityInfo.API
 		// in memory Datastore
 		public List<CityDto> Cities { get; set; }  
 
-		public static CitiesDataStore Current { get; } = new CitiesDataStore();
+		//public static CitiesDataStore Current { get; } = new CitiesDataStore();
 
 		public CitiesDataStore() { 
 			// TODO - fetch from a database
